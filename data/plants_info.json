@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Tomato",
+    "water_frequency": "Every 2-3 days",
+    "sunlight": "6-8 hours daily",
+    "soil": "Well-draining, pH 6.0-6.8",
+    "tips": "Support with stakes, prune suckers regularly. Water at the base to avoid leaf diseases."
+  },
+  {
+    "name": "Basil",
+    "water_frequency": "Daily in hot weather, every 2 days otherwise",
+    "sunlight": "6 hours daily",
+    "soil": "Rich, moist, well-draining",
+    "tips": "Pinch flowers to encourage leaf growth. Harvest regularly to promote bushier growth."
+  },
+  {
+    "name": "Rose",
+    "water_frequency": "2-3 times per week, deeply",
+    "sunlight": "6+ hours daily",
+    "soil": "Loamy, pH 6.0-7.0",
+    "tips": "Deadhead spent blooms, fertilize monthly during growing season. Mulch to retain moisture."
+  },
+  {
+    "name": "Cactus",
+    "water_frequency": "Every 2-3 weeks",
+    "sunlight": "Bright indirect light, some direct sun",
+    "soil": "Sandy, well-draining cactus mix",
+    "tips": "Avoid overwatering, ensure drainage holes. Water less in winter months."
+  },
+  {
+    "name": "Orchid",
+    "water_frequency": "Once a week, morning is best",
+    "sunlight": "Bright indirect light",
+    "soil": "Bark-based orchid mix, not soil",
+    "tips": "Mist leaves occasionally, avoid water on flowers. Repot every 2 years."
+  },
+  {
+    "name": "Mint",
+    "water_frequency": "Keep soil consistently moist",
+    "sunlight": "Partial shade to full sun",
+    "soil": "Rich, moist soil",
+    "tips": "Grows aggressively, consider container planting. Harvest regularly to encourage growth."
+  },
+  {
+    "name": "Lettuce",
+    "water_frequency": "Daily, keep soil moist",
+    "sunlight": "4-6 hours daily, partial shade in hot climates",
+    "soil": "Rich, well-draining, pH 6.0-7.0",
+    "tips": "Harvest outer leaves first. Provide afternoon shade in hot weather to prevent bolting."
+  },
+  {
+    "name": "Lavender",
+    "water_frequency": "Once a week, drought-tolerant once established",
+    "sunlight": "Full sun, 6+ hours",
+    "soil": "Well-draining, sandy, pH 6.5-7.5",
+    "tips": "Prune after flowering. Avoid overwatering, prefers dry conditions."
+  },
+  {
+    "name": "Succulent",
+    "water_frequency": "Every 1-2 weeks, less in winter",
+    "sunlight": "Bright indirect to direct light",
+    "soil": "Well-draining cactus/succulent mix",
+    "tips": "Water only when soil is completely dry. Provide good air circulation."
+  },
+  {
+    "name": "Pepper",
+    "water_frequency": "Every 2-3 days, keep consistent",
+    "sunlight": "6-8 hours daily",
+    "soil": "Well-draining, rich, pH 6.0-6.8",
+    "tips": "Support plants with stakes. Harvest peppers when fully colored for best flavor."
+  }
+]
