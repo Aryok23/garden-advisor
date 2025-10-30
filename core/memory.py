@@ -4,7 +4,7 @@ Implements both short-term (conversation buffer) and long-term (ChromaDB) memory
 """
 import os
 import logging
-from typing import List, Dict, Any
+from typing import List, Dict
 from collections import defaultdict
 from langchain_core.messages import HumanMessage, AIMessage
 import chromadb
@@ -205,6 +205,26 @@ class MemoryManager:
             return list(plants)
         except Exception as e:
             logger.error(f"Failed to get user plants: {e}")
+            return []
+    
+    def get_all_user_ids(self) -> List[str]:
+        """Get all user IDs that have stored data in ChromaDB or short-term memory"""
+        try:
+            user_ids = set()
+            
+            # Get from short-term memory
+            user_ids.update(self.short_term_memory.keys())
+            
+            # Get from ChromaDB long-term memory
+            results = self.memory_collection.get()
+            for metadata in results.get('metadatas', []):
+                if 'user_id' in metadata:
+                    user_ids.add(metadata['user_id'])
+            
+            logger.debug(f"Found {len(user_ids)} unique users")
+            return list(user_ids)
+        except Exception as e:
+            logger.error(f"Error getting all user IDs: {e}")
             return []
     
     def clear_user_memory(self, user_id: str):
