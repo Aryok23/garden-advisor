@@ -7,6 +7,69 @@
     "tips": "Support with stakes, prune suckers regularly. Water at the base to avoid leaf diseases."
   },
   {
+    "name": "Carrot",
+    "water_frequency": "Every 3-4 days, keep soil moist",
+    "sunlight": "6 hours daily",
+    "soil": "Loose, sandy soil, pH 6.0-6.8",
+    "tips": "Thin seedlings to prevent overcrowding. Harvest when roots reach desired size."
+  },
+  {
+    "name": "Strawberry",
+    "water_frequency": "2-3 times per week",
+    "sunlight": "6-8 hours daily",
+    "soil": "Well-draining, rich in organic matter, pH 5.5-6.5",
+    "tips": "Remove runners to focus on fruit. Mulch to retain moisture."
+  },
+  {
+    "name": "Spinach",
+    "water_frequency": "Daily, keep soil moist",
+    "sunlight": "4-6 hours daily",
+    "soil": "Rich, well-draining soil, pH 6.0-7.0",
+    "tips": "Harvest outer leaves first. Avoid letting it bolt in hot weather."
+  },
+  {
+    "name": "Mango",
+    "water_frequency": "Once a week, more in dry season",
+    "sunlight": "Full sun, 8+ hours",
+    "soil": "Well-draining, sandy loam, pH 5.5-7.5",
+    "tips": "Prune to maintain shape. Fertilize during growth season."
+  },
+  {
+    "name": "Ornamental Fern",
+    "water_frequency": "2-3 times per week, keep soil slightly moist",
+    "sunlight": "Indirect light",
+    "soil": "Rich, well-draining, slightly acidic soil",
+    "tips": "Mist leaves to maintain humidity. Avoid direct sun."
+  },
+  {
+    "name": "Cucumber",
+    "water_frequency": "Every 2 days",
+    "sunlight": "6-8 hours daily",
+    "soil": "Well-draining, fertile soil, pH 6.0-7.0",
+    "tips": "Provide trellis for support. Harvest regularly to encourage production."
+  },
+  {
+    "name": "Peace Lily",
+    "water_frequency": "Once a week, keep soil moist",
+    "sunlight": "Indirect light",
+    "soil": "Well-draining, rich potting mix",
+    "tips": "Remove yellow leaves. Avoid overwatering to prevent root rot."
+  },
+  {
+    "name": "Banana",
+    "water_frequency": "2-3 times per week",
+    "sunlight": "Full sun, 6-8 hours",
+    "soil": "Rich, well-draining soil, pH 5.5-7.0",
+    "tips": "Remove dead leaves. Fertilize monthly for better fruiting."
+  },
+  {
+    "name": "Lettuce",
+    "water_frequency": "Daily, keep soil moist",
+    "sunlight": "4-6 hours daily, partial shade in hot climates",
+    "soil": "Rich, well-draining, pH 6.0-7.0",
+    "tips": "Harvest outer leaves first. Provide afternoon shade in hot weather to prevent bolting."
+  },
+  {
     "name": "Basil",
     "water_frequency": "Daily in hot weather, every 2 days otherwise",
     "sunlight": "6 hours daily",
@@ -42,13 +105,6 @@
     "tips": "Grows aggressively, consider container planting. Harvest regularly to encourage growth."
   },
   {
-    "name": "Lettuce",
-    "water_frequency": "Daily, keep soil moist",
-    "sunlight": "4-6 hours daily, partial shade in hot climates",
-    "soil": "Rich, well-draining, pH 6.0-7.0",
-    "tips": "Harvest outer leaves first. Provide afternoon shade in hot weather to prevent bolting."
-  },
-  {
     "name": "Lavender",
     "water_frequency": "Once a week, drought-tolerant once established",
     "sunlight": "Full sun, 6+ hours",
@@ -68,5 +124,292 @@
     "sunlight": "6-8 hours daily",
     "soil": "Well-draining, rich, pH 6.0-6.8",
     "tips": "Support plants with stakes. Harvest peppers when fully colored for best flavor."
+  },
+  {
+    "name": "Eggplant",
+    "water_frequency": "Every 2-3 days",
+    "sunlight": "6-8 hours daily",
+    "soil": "Well-draining, fertile soil, pH 5.5-7.0",
+    "tips": "Stake taller plants. Harvest when fruits are firm and shiny."
+  },
+  {
+    "name": "Papaya",
+    "water_frequency": "2-3 times per week",
+    "sunlight": "Full sun, 6-8 hours",
+    "soil": "Rich, well-draining soil, pH 6.0-6.5",
+    "tips": "Thin crowded seedlings. Fertilize monthly for fruit development."
+  },
+  {
+    "name": "Chili",
+    "water_frequency": "Every 2-3 days",
+    "sunlight": "6-8 hours daily",
+    "soil": "Well-draining, fertile soil, pH 6.0-6.8",
+    "tips": "Pinch tips to encourage branching. Harvest when fully colored."
+  },
+  {
+    "name": "Zucchini",
+    "water_frequency": "Every 2 days",
+    "sunlight": "6-8 hours daily",
+    "soil": "Rich, well-draining soil, pH 6.0-7.5",
+    "tips": "Harvest fruits when small for better taste. Mulch to retain moisture."
+  },
+  {
+    "name": "Marigold",
+    "water_frequency": "2-3 times per week",
+    "sunlight": "Full sun, 6+ hours",
+    "soil": "Well-draining, fertile soil",
+    "tips": "Deadhead flowers to prolong blooming. Avoid overwatering."
+  },
+  {
+    "name": "Pineapple",
+    "water_frequency": "Once a week, more in hot weather",
+    "sunlight": "Full sun, 6-8 hours",
+    "soil": "Well-draining, sandy soil, pH 4.5-6.5",
+    "tips": "Remove weeds around plant. Fertilize during growth season."
+  },
+  {
+    "name": "Kale",
+    "water_frequency": "Every 2 days",
+    "sunlight": "4-6 hours daily",
+    "soil": "Rich, well-draining soil, pH 6.0-7.0",
+    "tips": "Harvest outer leaves regularly. Mulch to retain moisture."
+  },
+  {
+    "name": "Blueberry",
+    "water_frequency": "2-3 times per week",
+    "sunlight": "Full sun, 6-8 hours",
+    "soil": "Acidic, well-draining soil, pH 4.5-5.5",
+    "tips": "Prune annually. Mulch to conserve moisture."
+  },
+  {
+    "name": "Aloe Vera",
+    "water_frequency": "Every 2-3 weeks",
+    "sunlight": "Bright indirect to direct light",
+    "soil": "Well-draining succulent mix",
+    "tips": "Allow soil to dry completely between waterings. Avoid water on leaves."
+  },
+  {
+    "name": "Cabbage",
+    "water_frequency": "Every 2-3 days",
+    "sunlight": "4-6 hours daily",
+    "soil": "Rich, well-draining soil, pH 6.0-7.0",
+    "tips": "Thin seedlings for better growth. Keep soil moist for head formation."
+  },
+  {
+    "name": "Ornamental Hibiscus",
+    "water_frequency": "2-3 times per week",
+    "sunlight": "Full sun, 6+ hours",
+    "soil": "Well-draining, fertile soil",
+    "tips": "Prune to maintain shape. Fertilize monthly for more blooms."
+  },
+  {
+    "name": "Watermelon",
+    "water_frequency": "Every 2 days",
+    "sunlight": "Full sun, 6-8 hours",
+    "soil": "Well-draining, sandy loam, pH 6.0-7.5",
+    "tips": "Provide trellis for vines. Mulch to conserve soil moisture."
+  },
+  {
+    "name": "Tomat",
+    "water_frequency": "Setiap 2-3 hari",
+    "sunlight": "6-8 jam sehari",
+    "soil": "Tanah gembur, pH 6.0-6.8",
+    "tips": "Gunakan ajir, pangkas tunas samping secara rutin. Siram di pangkal untuk mencegah penyakit daun."
+  },
+  {
+    "name": "Wortel",
+    "water_frequency": "Setiap 3-4 hari, jaga tanah tetap lembap",
+    "sunlight": "6 jam sehari",
+    "soil": "Tanah gembur dan berpasir, pH 6.0-6.8",
+    "tips": "Tipiskan bibit untuk mencegah terlalu rapat. Panen saat akar mencapai ukuran yang diinginkan."
+  },
+  {
+    "name": "Stroberi",
+    "water_frequency": "2-3 kali seminggu",
+    "sunlight": "6-8 jam sehari",
+    "soil": "Tanah gembur, kaya bahan organik, pH 5.5-6.5",
+    "tips": "Cabut stolon untuk fokus pada buah. Gunakan mulsa untuk mempertahankan kelembapan."
+  },
+  {
+    "name": "Bayam",
+    "water_frequency": "Setiap hari, jaga tanah tetap lembap",
+    "sunlight": "4-6 jam sehari",
+    "soil": "Tanah kaya nutrisi, gembur, pH 6.0-7.0",
+    "tips": "Panen daun luar terlebih dahulu. Hindari tanaman berbunga terlalu cepat saat panas."
+  },
+  {
+    "name": "Mangga",
+    "water_frequency": "Seminggu sekali, lebih sering saat musim kemarau",
+    "sunlight": "Matahari penuh, 8+ jam",
+    "soil": "Tanah gembur berpasir, pH 5.5-7.5",
+    "tips": "Pangkas untuk menjaga bentuk. Beri pupuk selama musim pertumbuhan."
+  },
+  {
+    "name": "Paku Hias",
+    "water_frequency": "2-3 kali seminggu, jaga tanah sedikit lembap",
+    "sunlight": "Cahaya tidak langsung",
+    "soil": "Tanah kaya nutrisi, gembur, sedikit asam",
+    "tips": "Semprot daun untuk menjaga kelembapan. Hindari sinar matahari langsung."
+  },
+  {
+    "name": "Mentimun",
+    "water_frequency": "Setiap 2 hari",
+    "sunlight": "6-8 jam sehari",
+    "soil": "Tanah gembur dan subur, pH 6.0-7.0",
+    "tips": "Gunakan ajir/trellis untuk dukungan. Panen secara rutin untuk meningkatkan produksi."
+  },
+  {
+    "name": "Lili Perdamaian",
+    "water_frequency": "Seminggu sekali, jaga tanah lembap",
+    "sunlight": "Cahaya tidak langsung",
+    "soil": "Media tanam kaya nutrisi, gembur dan tidak tergenang air",
+    "tips": "Buang daun kuning. Jangan terlalu banyak air untuk mencegah akar busuk."
+  },
+  {
+    "name": "Pisang",
+    "water_frequency": "2-3 kali seminggu",
+    "sunlight": "Matahari penuh, 6-8 jam",
+    "soil": "Tanah subur, gembur, pH 5.5-7.0",
+    "tips": "Buang daun mati. Beri pupuk sebulan sekali untuk hasil buah lebih baik."
+  },
+  {
+    "name": "Selada",
+    "water_frequency": "Setiap hari, jaga tanah tetap lembap",
+    "sunlight": "4-6 jam sehari, teduh sebagian di cuaca panas",
+    "soil": "Tanah kaya nutrisi, gembur, pH 6.0-7.0",
+    "tips": "Panen daun luar terlebih dahulu. Beri teduhan sore di cuaca panas agar tidak cepat berbunga."
+  },
+  {
+    "name": "Basil",
+    "water_frequency": "Setiap hari saat cuaca panas, setiap 2 hari jika tidak",
+    "sunlight": "6 jam sehari",
+    "soil": "Tanah kaya nutrisi, lembap, gembur",
+    "tips": "Pencabutan bunga untuk mendorong pertumbuhan daun. Panen rutin untuk tanaman lebih rimbun."
+  },
+  {
+    "name": "Mawar",
+    "water_frequency": "2-3 kali seminggu, siram dalam",
+    "sunlight": "6+ jam sehari",
+    "soil": "Tanah liat gembur, pH 6.0-7.0",
+    "tips": "Buang bunga layu, pupuk sebulan sekali saat musim tumbuh. Gunakan mulsa untuk menahan kelembapan."
+  },
+  {
+    "name": "Kaktus",
+    "water_frequency": "Setiap 2-3 minggu",
+    "sunlight": "Cahaya terang tidak langsung, beberapa matahari langsung",
+    "soil": "Tanah berpasir, media kaktus gembur",
+    "tips": "Hindari terlalu banyak air, pastikan ada lubang drainase. Kurangi air di musim dingin."
+  },
+  {
+    "name": "Anggrek",
+    "water_frequency": "Seminggu sekali, pagi terbaik",
+    "sunlight": "Cahaya terang tidak langsung",
+    "soil": "Media berbahan serbuk kayu, bukan tanah",
+    "tips": "Semprot daun sesekali, hindari air di bunga. Repot setiap 2 tahun."
+  },
+  {
+    "name": "Mint",
+    "water_frequency": "Jaga tanah tetap lembap",
+    "sunlight": "Teduh sebagian hingga matahari penuh",
+    "soil": "Tanah kaya nutrisi dan lembap",
+    "tips": "Tumbuh cepat, cocok ditanam di pot. Panen rutin untuk mendorong pertumbuhan."
+  },
+  {
+    "name": "Lavender",
+    "water_frequency": "Seminggu sekali, tahan kekeringan setelah dewasa",
+    "sunlight": "Matahari penuh, 6+ jam",
+    "soil": "Tanah berpasir, gembur, pH 6.5-7.5",
+    "tips": "Pangkas setelah berbunga. Hindari terlalu banyak air, suka kondisi kering."
+  },
+  {
+    "name": "Succulent",
+    "water_frequency": "Setiap 1-2 minggu, kurang di musim dingin",
+    "sunlight": "Cahaya terang tidak langsung hingga langsung",
+    "soil": "Media kaktus/succulent yang gembur",
+    "tips": "Siram hanya saat tanah benar-benar kering. Pastikan sirkulasi udara baik."
+  },
+  {
+    "name": "Cabai",
+    "water_frequency": "Setiap 2-3 hari",
+    "sunlight": "6-8 jam sehari",
+    "soil": "Tanah subur dan gembur, pH 6.0-6.8",
+    "tips": "Pencabutan ujung untuk mendorong percabangan. Panen saat sudah berwarna."
+  },
+  {
+    "name": "Terong",
+    "water_frequency": "Setiap 2-3 hari",
+    "sunlight": "6-8 jam sehari",
+    "soil": "Tanah subur, gembur, pH 5.5-7.0",
+    "tips": "Tumpu tanaman tinggi. Panen saat buah keras dan mengkilap."
+  },
+  {
+    "name": "Pepaya",
+    "water_frequency": "2-3 kali seminggu",
+    "sunlight": "Matahari penuh, 6-8 jam",
+    "soil": "Tanah subur, gembur, pH 6.0-6.5",
+    "tips": "Tipiskan bibit yang terlalu rapat. Beri pupuk sebulan sekali untuk pembentukan buah."
+  },
+  {
+    "name": "Zucchini",
+    "water_frequency": "Setiap 2 hari",
+    "sunlight": "6-8 jam sehari",
+    "soil": "Tanah subur, gembur, pH 6.0-7.5",
+    "tips": "Panen buah saat kecil agar rasanya lebih enak. Gunakan mulsa untuk menahan kelembapan."
+  },
+  {
+    "name": "Marigold",
+    "water_frequency": "2-3 kali seminggu",
+    "sunlight": "Matahari penuh, 6+ jam",
+    "soil": "Tanah subur, gembur",
+    "tips": "Buang bunga layu untuk memperpanjang masa berbunga. Jangan terlalu banyak air."
+  },
+  {
+    "name": "Nanas",
+    "water_frequency": "Seminggu sekali, lebih sering di cuaca panas",
+    "sunlight": "Matahari penuh, 6-8 jam",
+    "soil": "Tanah berpasir gembur, pH 4.5-6.5",
+    "tips": "Cabut gulma di sekitar tanaman. Beri pupuk saat musim tumbuh."
+  },
+  {
+    "name": "Kale",
+    "water_frequency": "Setiap 2 hari",
+    "sunlight": "4-6 jam sehari",
+    "soil": "Tanah subur, gembur, pH 6.0-7.0",
+    "tips": "Panen daun luar secara rutin. Gunakan mulsa untuk menjaga kelembapan."
+  },
+  {
+    "name": "Blueberry",
+    "water_frequency": "2-3 kali seminggu",
+    "sunlight": "Matahari penuh, 6-8 jam",
+    "soil": "Tanah asam, gembur, pH 4.5-5.5",
+    "tips": "Pangkas setahun sekali. Gunakan mulsa untuk menjaga kelembapan."
+  },
+  {
+    "name": "Aloe Vera",
+    "water_frequency": "Setiap 2-3 minggu",
+    "sunlight": "Cahaya terang tidak langsung hingga langsung",
+    "soil": "Media succulent yang gembur",
+    "tips": "Biarkan tanah benar-benar kering sebelum disiram. Hindari air di daun."
+  },
+  {
+    "name": "Kubis",
+    "water_frequency": "Setiap 2-3 hari",
+    "sunlight": "4-6 jam sehari",
+    "soil": "Tanah subur, gembur, pH 6.0-7.0",
+    "tips": "Tipiskan bibit agar lebih baik. Jaga tanah tetap lembap untuk pembentukan kepala."
+  },
+  {
+    "name": "Hibiscus Hias",
+    "water_frequency": "2-3 kali seminggu",
+    "sunlight": "Matahari penuh, 6+ jam",
+    "soil": "Tanah subur, gembur",
+    "tips": "Pangkas untuk menjaga bentuk. Beri pupuk sebulan sekali untuk lebih banyak bunga."
+  },
+  {
+    "name": "Semangka",
+    "water_frequency": "Setiap 2 hari",
+    "sunlight": "Matahari penuh, 6-8 jam",
+    "soil": "Tanah berpasir gembur, pH 6.0-7.5",
+    "tips": "Gunakan trellis untuk sulur. Gunakan mulsa untuk mempertahankan kelembapan tanah."
   }
 ]

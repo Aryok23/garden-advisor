@@ -47,7 +47,7 @@ logs/
 .coverage
 htmlcov/
 .tox/
-tests/
+# tests/
 
 # OS
 .DS_Store

@@ -4,7 +4,7 @@ Implements reasoning, planning, tool usage, and reflection
 """
 import os
 import logging
-from typing import Dict, Any, List
+from typing import List
 from openai import OpenAI
 
 from core.memory import MemoryManager
@@ -31,8 +31,6 @@ class GardenAdvisorAgent:
         self.planner = Planner()
         
         logger.info("Garden Advisor Agent initialized")
-
-    
     
     def llm(self, messages):
         """Wrapper for LLM chat completions"""
