@@ -43,7 +43,7 @@ DISCORD_TOKEN=your_discord_token_here
 # Groq API
 GROQ_API_KEY=your_groq_api_key_here
 GROQ_API_BASE=https://api.groq.com/openai/v1
-GROQ_MODEL=mixtral-8x7b-32768
+GROQ_MODEL=llama-3.3-70b-versatile
 
 # OpenWeatherMap API
 WEATHER_API_KEY=your_openweather_api_key_here
@@ -66,12 +66,35 @@ LOG_LEVEL=INFO
 ### 4. Mendapatkan API Keys
 
 **Discord Bot Token:**
-1. Kunjungi [Discord Developer Portal](https://discord.com/developers/applications)
-2. Buat New Application
-3. Pergi ke Bot tab → Add Bot
-4. Copy token
-5. Enable "Message Content Intent" di Bot settings
-6. Invite bot ke server dengan OAuth2 URL Generator
+#### 1. Buka Developer Portal Discord
+👉 https://discord.com/developers/applications
+
+#### 2. Login dengan akun Discord kamu.
+
+#### 3. Buat Aplikasi Baru
+- Klik tombol “New Application”
+- Beri nama (misalnya: garden-advisor)
+- Klik Create
+
+#### 4. Buat Bot di dalam aplikasi itu
+- Di menu sebelah kiri, pilih “Bot”
+- Klik tombol “Add Bot”
+- Konfirmasi dengan klik Yes, do it!
+
+#### 5. Salin Token Bot
+- Masih di halaman Bot, ada bagian Token
+- Klik “Reset Token” (kalau belum pernah dibuat)
+- Klik “Copy” → inilah DISCORD_TOKEN yang kamu masukkan ke file .env
+
+#### 4. Integrasi dengan Discord
+- Masuk ke menu Bot, scroll ke bagian Privileged Gateway Intents.
+- Aktifkan: ✅ MESSAGE CONTENT INTENT, PRESENCE INTENT, dan SERVER MEMBERS INTENT
+- Klik Save Changes.
+- Masuk ke menu “OAuth2 → URL Generator”
+- Centang (minimal):
+  - bot (di bagian SCOPES)
+  - Send Messages + Read Messages/View Channels (di bagian BOT PERMISSIONS)
+- Copy URL yang muncul, buka di browser, pilih server Discord kamu, klik Authorize.
 
 **Groq API Key:**
 1. Daftar di [Groq Cloud](https://console.groq.com)
@@ -157,4 +180,5 @@ pytest tests/ -v
 ```
 
 **⭐ Jika project ini membantu, berikan star di GitHub!**
+
 
